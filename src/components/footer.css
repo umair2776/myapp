@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.main-footer {
+  width: 100%;
+  margin-top: 20px;
+  height: 550px;
+  background-color: #f1f1f7;
+}
+
+.phone, .message {
+  /* display: flex;
+  gap: 1px; Minimal gap, you can set it to 0 if needed */
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.phone .number p, .message .support p {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.message {
+  margin-top: -6px; /* This brings the message section closer to the phone section */
+}
+.main-icons {
+  display: flex;
+  gap: 3px;
+ 
+  font-size: 18px;
+  flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+.main-icons > * {
+  flex-shrink: 0; /* Prevents icons from shrinking */
+}
+.list-items{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.list-items li{
+  list-style: none;
+}
+.form {
+  
+}
+.form input{
+ text-align: center;
+  height: 45px;
+  width: 150px;
+  border: 1px solid black;
+}
+.btn1 button{
+  height: 45px;
+  width: 100px;
+  border: 1px solid black;
+  background-color: #ae0067;
+  color: #ffffff;
+}
+.copyright{
+  opacity: 0.5;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .main-footer{
+height: 1200px;
+  }
+}

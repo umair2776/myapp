@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.maroon-btn button{
+    height: 40px;
+    width: 170px;
+    border: 1px solid #e6007e;
+    color: #e6007e;
+    background-color: transparent;
+    border-radius: 8px;
+    transform: translateX(0%);
+    transition: transform 0.9s ease-in-out;
+  }
+  .maroon-btn button:hover{
+    background-color: #e6007e;
+    color: white;
+  }
+  .end-footer{
+    margin-top: 170px;
+  }
